@@ -1,0 +1,95 @@
+.home {
+  width: 100%;
+  background-color: #23263a;
+}
+
+.home__wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 5rem 10rem;
+}
+
+.home__img {
+  width: 350px;
+  order: 2;
+}
+.home__img img {
+  border-radius: 50%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.home__content {
+  padding-top: 2rem;
+}
+
+.home__social {
+  display: flex;
+  flex-direction: row;
+  gap: 1.25rem;
+}
+.home__social i {
+  font-size: 2rem;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #00B2DE;
+  transition: all .5s ease;
+}
+.home__social i:hover {
+  color: #00B2DE;
+  transform: scale(1.2);
+}
+
+.home__name {
+  padding: 1.5rem;
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Pacifico";
+}
+
+.home__desc {
+  width: 500px;
+}
+
+.home__button {
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.home__cv button {
+  background: none;
+  font-size: 1.5rem;
+  border: 1px solid #00B2DE;
+  width: 120px;
+  height: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.home__cv button:hover {
+  background-color: #00B2DE;
+}
+
+.home__button a {
+  color: #fff;
+}
+
+.home__view button {
+  background-color: #ff4a57;
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.25rem;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.home__view button:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
