@@ -5,7 +5,7 @@ import Home from './components/pages/home/Home';
 import Services from './components/pages/services/Services';
 import About from './components/pages/about/About';
 
-import './app.css';
+import './App.css';
 
 const App = () => {
   return (
